@@ -1,2 +1,2 @@
 # Projet Python sur l'activité parlementaire de nos députés
-Dans le cadre de ce projet, nous souhaitons observer 
+Dans le cadre de ce projet, nous souhaitons observer les caractéristiques de nos députés. Pour cela, nous avons d'abord collecté des données de plusieurs sources sur l'activité des parlemenataires à l'assemblée, des données d'activité de leur page twitter, des données sur leur circonscription et leurs scores aux élections. Dans une duexième temps, nous avons visualisé certaines caractéristiques intéressantes des députés afin de mieux se rendre compte de certaines corrélations. Enfin, nous réalisons un clustering de ces députés.
