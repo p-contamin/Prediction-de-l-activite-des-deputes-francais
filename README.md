@@ -22,7 +22,7 @@ La base de données qui combine toutes ces informations s'appelle tab_final.csv.
 
 Notre analyse s'effectue en 2 temps : 
 
-1. Une analyse classique : on s'intéresse aux caractéristiques classiques des députés pour vérifier que la base de donnée est cohérente puis on regarde les corrélations entre certains groupes de variables (les caractéristiques des électeurs, les participations parlementaires, les activités sur Twitter, les conditions d'élection). L'objectif est de créer des indices pour les variables fortement corrélées au besoin et 
+1. Une analyse classique : on s'intéresse aux caractéristiques classiques des députés pour vérifier que la base de donnée est cohérente puis on regarde les corrélations entre certains groupes de variables (les caractéristiques des électeurs, les participations parlementaires, les activités sur Twitter, les conditions d'élection). L'objectif est de créer des indices pour les variables fortement corrélées au besoin et de supprimer des variables qui n'apportent pas d'informations supplémentaires. 
 
 2. Une analyse avec cartographie : l'objectif est de regarder si les caractéristiques des députés et leur activités (parlementaires et médiatiques) sont réparties ou non uniformément sur le territoire et regarder 
 
