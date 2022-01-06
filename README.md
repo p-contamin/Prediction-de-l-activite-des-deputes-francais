@@ -19,8 +19,11 @@ Les données que nous utilisons sont issues de quatre sources :
 La base de données qui combine toutes ces informations s'appelle tab_final.csv. Elle est disponible dans l'onglet "rassemblement des données" de notre repository. 
 
 *Tout d'abord, le notebook caract_deputes_et_participation permet de récupérer des données individuelles sur les députés et les fusionne pour créer les tables csv caract_deputes et participation.
-Ensuite, le notebook Script circonscriptions permet de récupérer des données socio-démographiques de chaque circonscription et les résultats aux élections législatives de 2017. Il créé la table csv caract_circo.
+
+Ensuite, le notebook Script circonscriptions permet de récupérer des données socio-démographiques de chaque circonscription et les résultats aux élections législatives de 2017. Il crée la table csv caract_circo.
+
 Puis, le notebook twitter permet de récupérer quelques statistiques des comptes Twitter de nos députés. Pour cela, il utilise en entrée le csv caract_deputes.
+
 Enfin, le notebook FusionBases fusionne tous les csv obtenus pour créer la base de travail finale qui se nomme tab_final.csv.*
 
 ## L'analyse descriptive 
