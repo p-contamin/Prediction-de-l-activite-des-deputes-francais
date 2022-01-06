@@ -12,11 +12,16 @@ Les données que nous utilisons sont issues de quatre sources :
 
 1. Les données fournies par l'INSEE sur les caractéristiques socio-démographiques des circonscriptions en 2013 ainsi que le détail du résultat des élections législatives de 2017 au premier et second tour. L'utilisation des données socio-démographiques de 2013 se justifie par la grande inertie des évolutions démographiques. 
 
-2. Les données issues de l'API du site nosdeputes.fr qui recense l'activité parlementaire des députés de la XVe législature. 
+2. Les données issues du site nosdeputes.fr qui recense l'activité parlementaire des députés de la XVe législature. 
 
 3. Les données récupérées par webscrapping du site foller.me qui répertorie l'activité des utilisateurs sur Twitter. 
 
 La base de données qui combine toutes ces informations s'appelle tab_final.csv. Elle est disponible dans l'onglet "rassemblement des données" de notre repository. 
+
+Tout d'abord, le notebook caract_deputes_et_participation permet de récupérer des données individuelles sur les députés et les fusionne pour créer les tables csv caract_deputes et participation.
+Ensuite, le notebook Script circonscriptions permet de récupérer des données socio-démographiques de chaque circonscription et les résultats aux élections législatives de 2017. Il créé la table csv caract_circo.
+Puis, le notebook twitter permet de récupérer quelques statistiques des comptes Twitter de nos députés. Pour cela, il utilise en entrée le csv caract_deputes.
+Enfin, le notebook FusionBases fusionne tous les csv obtenus pour créer la base de travail finale qui se nomme tab_final.csv.
 
 ## L'analyse descriptive 
 
@@ -24,7 +29,7 @@ Notre analyse s'effectue en 2 temps :
 
 1. Une analyse classique : on s'intéresse aux caractéristiques classiques des députés pour vérifier que la base de donnée est cohérente puis on regarde les corrélations entre certains groupes de variables (les caractéristiques des électeurs, les participations parlementaires, les activités sur Twitter, les conditions d'élection). L'objectif est de créer des indices pour les variables fortement corrélées au besoin et de supprimer des variables qui n'apportent pas d'informations supplémentaires. 
 
-2. Une analyse avec cartographie : l'objectif est de regarder si les caractéristiques des députés et leur activités (parlementaires et médiatiques) sont réparties ou non uniformément sur le territoire et regarder 
+2. Une analyse avec cartographie : l'objectif est de regarder si les caractéristiques des députés et leur activités (parlementaires et médiatiques) sont réparties ou non uniformément sur le territoire. 
 
 ## La modélisation 
 
