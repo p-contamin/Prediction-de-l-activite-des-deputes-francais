@@ -10,7 +10,7 @@ Notre projet se divise en 3 étapes :
 
 Les données que nous utilisons sont issues de quatre sources : 
 
-1. Les données fournies par l'INSEE sur les caractéristiques socio-démographiques des circonscriptions en 2013 ainsi que le détail du résultat des élections législatives de 2017 au premier et second tour. 
+1. Les données fournies par l'INSEE sur les caractéristiques socio-démographiques des circonscriptions en 2013 ainsi que le détail du résultat des élections législatives de 2017 au premier et second tour. L'utilisation des données socio-démographiques de 2013 se justifie par la grande inertie des évolutions démographiques. 
 
 2. Les données issues de l'API du site nosdeputes.fr qui recense l'activité parlementaire des députés de la XVe législature. 
 
