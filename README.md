@@ -39,6 +39,6 @@ La modélisation se décompose en trois parties :
 
 2. Un clustering : avec toutes les variables qui caractérisent les députés. Nous avons utilisés deux modèles de clustering qui rendent des résultats similaires. 
 
-3. Une régression : essayer de prédire l'indice synthétique de participation parlementaire en fonction des caractéristiques des députés recensées dans la base de donnée tab_final. 
+3. Une régression : essayer de prédire l'indice synthétique de participation parlementaire en fonction des caractéristiques des députés recensées dans la base de donnée tab_final et identifier les variables pertinentes pour le prédire.
 
 
